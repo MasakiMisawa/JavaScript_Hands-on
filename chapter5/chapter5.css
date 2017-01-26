@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/*----------------- body-----------------*/
+body {
+    background-color: #F8F8F8;
+}
+
+/*----------------- header-----------------*/
+header {
+    height: 150px;
+    text-align: center;
+}
+
+header h1 {
+    line-height: 120px;
+    letter-spacing: 6px;
+    color: #800;
+}
+
+header p {
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: #C00;
+}
+
+/*----------------- main-----------------*/
+main {
+    width: 510px;
+    margin: 30px auto 0px;
+}
+
+main img {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------- a-----------------*/
+a {
+    width: 73px;
+	  height: 43px;
+    background: -moz-linear-gradient(top, rgb(240,240,240) 0%, rgb(253,253,253) 45%, rgb(204,204,204) 50%, rgb(243,243,243) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(240,240,240)), color-stop(45%,rgb(253,253,253)), color-stop(50%,rgb(204,204,204)), color-stop(100%,rgb(243,243,243)));
+    background: -webkit-linear-gradient(top, rgb(240,240,240) 0%,rgb(253,253,253) 45%,rgb(204,204,204) 50%,rgb(243,243,243) 100%);
+    background: -o-linear-gradient(top, rgb(240,240,240) 0%,rgb(253,253,253) 45%,rgb(204,204,204) 50%,rgb(243,243,243) 100%);
+    background: -ms-linear-gradient(top, rgb(240,240,240) 0%,rgb(253,253,253) 45%,rgb(204,204,204) 50%,rgb(243,243,243) 100%);
+    background: linear-gradient(top, rgb(240,240,240) 0%,rgb(253,253,253) 45%,rgb(204,204,204) 50%,rgb(243,243,243) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#f3f3f3',GradientType=0 );
+    border: 1px solid #cccccc;
+    -moz-border-radius: 5px 20px 5px 20px / 10px 30px 10px 30px;
+    -webkit-border-radius: 5px 20px 5px 20px / 10px 30px 10px 30px;
+    -khtml-border-radius: 5px 20px 5px 20px / 10px 30px 10px 30px;
+    border-radius: 5px 20px 5px 20px / 10px 30px 10px 30px;
+    display: block;
+    font: 14px /43px 'tenderness', "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", Osaka, sans-serif;
+    color: #666666;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ffffff, -1px -1px 1px #000000;
+    text-decoration: none;
+    -moz-box-shadow: 2px 4px 2px #EBEBEB;
+    -webkit-box-shadow: 2px 4px 2px #EBEBEB;
+    box-shadow: 2px 4px 2px #EBEBEB;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+a:hover,
+a:active {
+    background: -moz-linear-gradient(top,  rgb(204,204,204) 0%, rgb(128,128,128) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(204,204,204)), color-stop(100%,rgb(128,128,128)));
+    background: -webkit-linear-gradient(top,  rgb(204,204,204) 0%,rgb(128,128,128) 100%);
+    background: -o-linear-gradient(top,  rgb(204,204,204) 0%,rgb(128,128,128) 100%);
+    background: -ms-linear-gradient(top,  rgb(204,204,204) 0%,rgb(128,128,128) 100%);
+    background: linear-gradient(top,  rgb(204,204,204) 0%,rgb(128,128,128) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#808080',GradientType=0 );
+    color:#FFFFFF;
+    text-shadow: -1px -1px 1px #666;
+}

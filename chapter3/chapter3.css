@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*----------------- body-----------------*/
+body {
+    background-color: #F8F8F8;
+}
+
+/*----------------- header-----------------*/
+header {
+    height: 150px;
+    text-align: center;
+}
+
+header h1 {
+    line-height: 120px;
+    letter-spacing: 6px;
+    color: #800;
+}
+
+header p {
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: #C00;
+}
+
+/*----------------- main-----------------*/
+main {
+    width: 900px;
+    margin: 100px auto 0px;
+    text-align: center;
+}
+
+main button {
+    padding: 3px 10px;
+    text-align: center;
+    cursor :pointer;
+}

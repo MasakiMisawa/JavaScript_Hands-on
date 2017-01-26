@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*----------------- body-----------------*/
+body {
+    background-color: #F8F8F8;
+}
+
+/*----------------- header-----------------*/
+header {
+    height: 150px;
+    text-align: center;
+}
+
+header h1 {
+    line-height: 120px;
+    letter-spacing: 6px;
+    color: #800;
+}
+
+header p {
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: #C00;
+}
+
+/*----------------- main-----------------*/
+main {
+    width: 450px;
+    margin: 20px auto 0px;
+    text-align: center;
+}
+
+main div {
+    width: 148px;
+    height: 148px;
+    background-color: #FFF;
+    float: left;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 148px;
+    font-weight: bold;
+    cursor: pointer;
+}
